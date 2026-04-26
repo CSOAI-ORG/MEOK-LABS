@@ -54,3 +54,13 @@ Use code **`MEOKEAT`** for 25% off the first 3 months.
 ## License
 
 MIT — MEOK AI Labs, 2026.
+
+---
+
+## Distribution channels
+
+- **PyPI**: `pip install meok-cra-annex-iv-classifier-mcp` (this package)
+- **Apify Store** (Pay-Per-Event): https://apify.com/knowing_yucca/meok-cra-classifier
+- **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/meok-cra-annex-iv-classifier-mcp
+- **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
+

@@ -76,3 +76,13 @@ pip install meok-omnibus-tracker-mcp
 ## License
 
 MIT — MEOK AI Labs, 2026.
+
+---
+
+## Distribution channels
+
+- **PyPI**: `pip install meok-omnibus-tracker-mcp` (this package)
+- **Apify Store** (Pay-Per-Event): https://apify.com/knowing_yucca/meok-omnibus-tracker
+- **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/meok-omnibus-tracker-mcp
+- **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
+

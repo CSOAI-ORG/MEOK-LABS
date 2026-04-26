@@ -51,3 +51,13 @@ This is a static-pattern scanner. It does not run dynamic taint analysis, fuzz t
 ## Built by MEOK AI Labs
 
 Solo founder. London. 234 MCP packages on PyPI. Live signing infrastructure at `meok-attestation-api.vercel.app`. Storefront `councilof.ai`. Get the catalogue: `https://meok-attestation-api.vercel.app/catalogue`.
+
+---
+
+## Distribution channels
+
+- **PyPI**: `pip install meok-mcp-injection-scan-mcp` (this package)
+- **Apify Store** (Pay-Per-Event): https://apify.com/knowing_yucca/meok-mcp-injection-scan
+- **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/meok-mcp-injection-scan-mcp
+- **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
+
