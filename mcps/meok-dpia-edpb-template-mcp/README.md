@@ -52,3 +52,13 @@ EDPB DPIA template explainer adopted 14 April 2026 — [edpb.europa.eu](https://
 ## Built by MEOK AI Labs
 
 Solo founder. London. 234 MCP packages on PyPI. Live signing infrastructure at `meok-attestation-api.vercel.app`. Catalogue: `https://meok-attestation-api.vercel.app/catalogue`.
+
+---
+
+## Distribution channels
+
+- **PyPI**: `pip install meok-dpia-edpb-template-mcp`
+- **Apify Store** (Pay-Per-Event): https://apify.com/knowing_yucca/meok-dpia-edpb
+- **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/meok-dpia-edpb-template-mcp
+- **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
+

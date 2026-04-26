@@ -60,3 +60,13 @@ This is one of 255+ MCP servers by MEOK AI Labs. Browse all at [meok.ai](https:/
 
 ---
 **MEOK AI Labs** | [meok.ai](https://meok.ai) | nicholas@meok.ai | United Kingdom
+
+---
+
+## Distribution channels
+
+- **PyPI**: `pip install slack-enterprise-mcp`
+- **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/slack-enterprise-mcp
+- **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
+- **Verifier**: `pip install meok-attestation-verify` then `meok-verify <cert_url>`
+

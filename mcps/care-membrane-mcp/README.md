@@ -114,3 +114,13 @@ Every Pro-tier audit emits a **HMAC-SHA256 signed attestation** with a public ve
 Get one: [Pro £199/mo](https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836) · [Enterprise £1,499/mo](https://buy.stripe.com/4gM9AV80kaEG0ZT42k8k837) · [48h assessment £5,000](https://buy.stripe.com/4gM7sN2G0bIKeQJfL28k833)
 
 Verify: `pip install meok-attestation-verify`
+
+---
+
+## Distribution channels
+
+- **PyPI**: `pip install care-membrane-mcp`
+- **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/care-membrane-mcp
+- **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
+- **Verifier**: `pip install meok-attestation-verify` then `meok-verify <cert_url>`
+

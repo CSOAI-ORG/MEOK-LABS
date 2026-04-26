@@ -55,3 +55,13 @@ Automated assistance for regulatory preparation. Does not substitute for qualifi
 ## License
 
 MIT — MEOK AI Labs, 2026.
+
+---
+
+## Distribution channels
+
+- **PyPI**: `pip install meok-nis2-de-register-mcp`
+- **Apify Store** (Pay-Per-Event): https://apify.com/knowing_yucca/meok-nis2-de-register
+- **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/meok-nis2-de-register-mcp
+- **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
+

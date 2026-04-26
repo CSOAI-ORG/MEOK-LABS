@@ -71,3 +71,13 @@ This is one of 255+ MCP servers by MEOK AI Labs. Browse all at [meok.ai](https:/
 
 ---
 **MEOK AI Labs** | [meok.ai](https://meok.ai) | [csoai.org](https://csoai.org) | nicholas@meok.ai
+
+---
+
+## Distribution channels
+
+- **PyPI**: `pip install healthcare-fhir-mcp`
+- **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/healthcare-fhir-mcp
+- **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
+- **Verifier**: `pip install meok-attestation-verify` then `meok-verify <cert_url>`
+
