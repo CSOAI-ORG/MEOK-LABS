@@ -1,0 +1,30 @@
+{
+  "name": "care-membrane-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for care membrane. Features validate care, detect threats, analyze care patterns. From MEOK AI Labs.",
+  "main": "server.py",
+  "mcp": {
+    "name": "care membrane",
+    "vendor": "MEOK AI Labs",
+    "homepage": "https://meok.ai",
+    "repository": "https://github.com/MEOK-AI-Labs/care-membrane-mcp",
+    "runtime": "python",
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "meok-ai-labs",
+      "ai-tools"
+    ]
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "meok-ai-labs"
+  ],
+  "author": "MEOK AI Labs <nicholas@meok.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MEOK-AI-Labs/care-membrane-mcp"
+  }
+}

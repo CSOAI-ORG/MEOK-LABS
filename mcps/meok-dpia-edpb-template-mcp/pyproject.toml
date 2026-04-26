@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "meok-dpia-edpb-template-mcp"
+version = "1.0.1"
+description = "DPIA generator for the EDPB harmonised template (adopted 14 Apr 2026) with EU AI Act Article 26(9) FRIA mapping baked in. 6-question wizard → full DPIA in EDPB 9-section structure with auto-detected risk patterns + residual-risk verdict + Art 36 supervisor-consultation flag. Free 1/day, £29 one-off signed pack, Pro £79/mo unlimited. By MEOK AI Labs."
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "MEOK AI Labs", email = "nicholas@meok.ai"}]
+keywords = ["mcp", "dpia", "gdpr-art-35", "edpb-2026", "eu-ai-act-art-26-9", "fria", "data-protection", "signed-attestation", "meok-ai-labs"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent", "Topic :: Office/Business"]
+dependencies = ["mcp>=1.0.0"]
+
+[project.urls]
+Homepage = "https://meok.ai/meok-dpia-edpb-template-mcp"
+Repository = "https://github.com/CSOAI-ORG/meok-dpia-edpb-template-mcp"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+only-include = ["server.py"]
+
+[project.scripts]
+meok-dpia-edpb-template-mcp = "server:main"

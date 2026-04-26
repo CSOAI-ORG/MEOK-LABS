@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "healthcare-fhir-mcp"
+version = "1.0.0"
+description = "Healthcare Fhir tools for AI agents. Capabilities: search patients, get patient, search conditions. Built by MEOK AI Labs."
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+authors = [{name = "MEOK AI Labs", email = "nicholas@meok.ai"}]
+dependencies = ["mcp>=1.0.0", "requests>=2.28.0", ]
+keywords = ["mcp", "ai", "meok", "healthcare", "fhir", "mcp/"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries",
+]
+[project.urls]
+Homepage = "https://meok.ai"
+Repository = "https://github.com/MEOK-AI-Labs/healthcare-fhir-mcp"
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+only-include = ["server.py"]
+
+[project.scripts]
+healthcare_fhir_mcp = "server:main"

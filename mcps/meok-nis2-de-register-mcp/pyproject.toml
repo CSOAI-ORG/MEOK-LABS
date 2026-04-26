@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "meok-nis2-de-register-mcp"
+version = "1.0.1"
+description = "Germany NIS2 BSI registration MCP. Generates BSI-portal-ready (Mein Unternehmenskonto) registration packets for the ~30,000 German Mittelstand orgs in NIS2 scope. Validates org profile, classifies sector + size + entity type per BSIG (NIS2-Umsetzungsgesetz, in force 6 Dec 2025), generates the registration data structure, emits HMAC-signed proof of readiness. Late registration = €2M fines + management body personal liability under §38b BSIG. Built for the April–May 2026 deadline window. By MEOK AI Labs."
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "MEOK AI Labs", email = "nicholas@meok.ai"}]
+keywords = ["mcp", "nis2", "bsi", "bsig", "germany", "deutschland", "mittelstand", "registrierung", "wesentliche-einrichtung", "wichtige-einrichtung", "compliance", "signed-attestation", "meok-ai-labs"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent", "Topic :: Security", "Natural Language :: German"]
+dependencies = ["mcp>=1.0.0"]
+
+[project.urls]
+Homepage = "https://meok.ai/meok-nis2-de-register-mcp"
+Repository = "https://github.com/CSOAI-ORG/meok-nis2-de-register-mcp"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+only-include = ["server.py"]
+
+[project.scripts]
+meok-nis2-de-register-mcp = "server:main"

@@ -1,0 +1,33 @@
+{
+  "name": "slack-enterprise-mcp",
+  "version": "1.0.0",
+  "description": "Slack Enterprise MCP server. Tools: send message, search messages, list channels. Built by MEOK AI Labs.",
+  "main": "server.py",
+  "mcp": {
+    "name": "slack enterprise",
+    "vendor": "MEOK AI Labs",
+    "homepage": "https://meok.ai",
+    "repository": "https://github.com/MEOK-AI-Labs/slack-enterprise-mcp",
+    "runtime": "python",
+    "tags": [
+      "mcp",
+      "mcp-server",
+      "meok-ai-labs",
+      "ai-tools"
+    ]
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "meok-ai-labs"
+  ],
+  "author": "MEOK AI Labs <nicholas@meok.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MEOK-AI-Labs/slack-enterprise-mcp"
+  },
+  "dependencies": {
+    "slack-sdk": "^1.0.0"
+  }
+}
