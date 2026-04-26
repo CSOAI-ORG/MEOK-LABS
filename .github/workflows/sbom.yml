@@ -1,0 +1,21 @@
+name: sbom-on-push
+on: { push: { branches: [main] } }
+
+jobs:
+  sbom:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: |
+          curl -sL https://raw.githubusercontent.com/CSOAI-ORG/MEOK-LABS/main/scripts/generate-sbom.py -o /tmp/gs.py 2>/dev/null || true
+          for pkg in mcps/*/; do
+            name=$(basename "$pkg")
+            echo "Generating SBOM for $name"
+            python3 /tmp/gs.py "$pkg" --out "$pkg/sbom.cdx.json" 2>/dev/null || true
+          done
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh CycloneDX SBOMs"
+          file_pattern: "mcps/*/sbom.cdx.json"
